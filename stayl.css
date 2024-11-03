@@ -1,0 +1,108 @@
+:root{
+--Green: hsl(75, 94%, 57%);
+--White: hsl(0, 0%, 100%);
+--Grey : hsl(0, 0%, 20%);
+--Darkgrey: hsl(0, 0%, 12%);
+--offBlack: hsl(0, 0%, 8%);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'cairo';
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'cairo';
+    
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: var(--offBlack);
+
+}
+
+body .card {
+    width: 25%;
+    
+    border-radius: 25px;
+    padding: 25px 0px;
+    background-color: var(--Darkgrey);
+    text-align: center;
+}
+
+body .card .logo img{
+    border-radius: 50%;
+    width: 80%;
+    
+}
+body .card .text h1{
+color: var(--White);
+padding: 10x;
+    
+}
+body .card .text :nth-child(2){
+    color: var(--Green);
+    padding: 0px 20px;
+    margin: 10px 0px;
+}
+body .card .text :nth-child(3){
+    padding: 5px;
+    margin: 10px;
+    color: beige;
+}
+body .card .link a{
+    
+display: block;
+text-decoration: none;
+border-radius: 20px;
+color: var(--White);
+margin: 25px 0px; border-radius: 20px;
+background-color: var(--Grey);
+padding: 15px;
+transition: 0.5s;
+}
+body .card .link a:hover{
+    color: black;
+    background-color: var(--Green);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
